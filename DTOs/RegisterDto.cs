@@ -15,4 +15,4 @@ public class RegisterDto
         Email = string.Empty;
         Password = string.Empty;
     }
-}
+}   
