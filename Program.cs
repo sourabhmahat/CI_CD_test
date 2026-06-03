@@ -66,7 +66,7 @@ builder.Services.AddCors(options =>
 });
 #endregion
 
-var app = builder.Build();
+var app = builder.Build(); 
 
 app.UseCors("AllowLocalhost");
 
