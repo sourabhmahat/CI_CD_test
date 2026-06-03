@@ -57,7 +57,7 @@ public class AuthRepository : IAuthRepository
         if (!validPassword)
         {
 #pragma warning disable S112
-            throw new Exception("Invalid password");
+            throw new Exception("Invalid password user");
 #pragma warning restore S112
         }
 
