@@ -46,7 +46,7 @@ public class AuthRepository : IAuthRepository
 
         if (user == null)
         {
-            throw new Exception("User not found");
+            throw new Exception("User not found in system");
         }
 
         bool validPassword =
